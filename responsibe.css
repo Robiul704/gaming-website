@@ -1,0 +1,31 @@
+@media screen and (max-width:576px) {
+    .nav-container,.logo-container, .nav-items, .btn,.footer,.ankor-tag,.logo-containe {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .logo-containe{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .btn-1{
+        width: 30%;
+        margin-left: 80px;
+        
+    }
+    .btn-2{
+        width: 30%;
+        margin-left: 80px;
+    }
+    .card{
+        grid-template-columns: 1fr;
+        padding: 60px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .left-side,.right-side{
+        width: 100%;
+    }
+    
+    }
+    
+    
