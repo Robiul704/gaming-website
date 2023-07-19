@@ -44,7 +44,7 @@
         padding: 30px;
     }
     .card-container{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     }
@@ -91,11 +91,14 @@
         }
         .play-instantly{
             flex-direction: row;
-            padding: 30px;
+            padding: 70px;
         }
         .png{
             grid-template-columns:repeat(3,1fr);
             gap: 200px;
+        }
+        .card-container{
+            grid-template-columns: repeat(2,1fr);
         }
 
     }
