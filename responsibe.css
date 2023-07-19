@@ -1,12 +1,16 @@
 @media screen and (max-width:576px) {
-    .nav-container,.logo-container, .nav-items, .btn,.footer,.logo-containe {
+    .nav-container,.nav-items, .btn,.footer,.logo-containe {
         flex-direction: column;
        
         margin: 20px auto;
     }
+    .logo-container{
+        grid-template-columns: 1fr;      
+    }
     .logo-containe{
         grid-template-columns: 1fr;
     }
+   
     .card{
         grid-template-columns: 1fr;
         padding: 60px;
@@ -27,6 +31,7 @@
     }
     .last-container, .second-part{
         grid-template-columns: repeat(3,1fr);
+        padding: 30px;
     }
     .footer-first-flex{
         grid-template-columns: repeat(3,1fr);
@@ -38,20 +43,23 @@
         flex-direction: column;
         padding: 30px;
     }
+    .card-container{
+        flex-direction: column;
+    }
 
     }
 
 
 /* medium device */
 
-    @media screen and (min-width:577px) and (mix-width:900px) {
+    @media screen and (min-width:576px) and (max-width:900px) {
         .nav-container,.logo-container, .nav-items, .btn,.footer,.logo-containe {
             flex-direction: column;
            
             margin: 20px auto;
         }
-        .logo-containe{
-            grid-template-columns: 2fr;
+        .logo-container{
+            grid-template-columns: 1fr;
         }
         .card{
             grid-template-columns: 2fr;
@@ -62,26 +70,34 @@
         }
     
         .banner{
-            flex-direction: column;
+            flex-direction: row;
         }
         .btn{
-         flex-direction: row;
+         flex-direction: column;
          text-align: center;
         }
         .left-side,.right-side{
             width: 100%;
         }
         .last-container, .second-part{
-            grid-template-columns: 2fr;
-        }
-        .footer-first-flex{
             grid-template-columns: repeat(3,1fr);
         }
+        .footer-first-flex{
+         
+            grid-template-columns: repeat(5,1fr);
+        }
         .footer-second-flex{
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
         }
-    
+        .play-instantly{
+            flex-direction: row;
+            padding: 30px;
         }
-    
+        .png{
+            grid-template-columns:repeat(3,1fr);
+            gap: 200px;
+        }
+
+    }
     
     
