@@ -237,6 +237,10 @@ height: 600px;
     align-items: flex-start; 
     color: white;
 }
+.small-image{
+width: 60px;
+height: 60px;
+}
 .footer-first-flex{
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -251,12 +255,16 @@ word-wrap: break-word
 .footer-second-flex{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+
 }
     
-.fa-brands{
-    font-size: 50px;
-    color: white;
+.png{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
 }
+
 .footer{
     width: 100%;
      height: 600px;
@@ -289,6 +297,7 @@ word-wrap: break-word
     display: grid;
     grid-template-columns: repeat(5,1fr);
     justify-content: center;
+    align-items: center;
     margin: 50px auto;
     max-width: 1400px;
     /* gap: 20px; */
