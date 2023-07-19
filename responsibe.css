@@ -1,29 +1,45 @@
 @media screen and (max-width:576px) {
-    .nav-container,.logo-container, .nav-items, .btn,.footer,.ankor-tag,.logo-containe {
+    .nav-container,.logo-container, .nav-items, .btn,.footer,.logo-containe {
         flex-direction: column;
-        padding: 30px;
+        margin: 20px 50px;
     }
     .logo-containe{
         grid-template-columns: repeat(3,1fr);
     }
+    .ankor-tag{
+        grid-template-columns: (3,1fr);
+    }
     .btn-1{
-        width: 30%;
-        margin-left: 80px;
+        /* width: 50%;
+        margin-left: 100px; */
         
     }
     .btn-2{
-        width: 30%;
-        margin-left: 80px;
+        /* width: 50%; */
+        /* margin-left: 80px; */
     }
     .card{
         grid-template-columns: 1fr;
         padding: 60px;
     }
+    .card-heading{
+        text-align: center;
+    }
+
     .banner{
         flex-direction: column;
     }
+    .btn{
+     flex-direction: row;
+     /* margin-left: 130px; */
+     text-align: center;
+     /* width: 100px; */
+    }
     .left-side,.right-side{
         width: 100%;
+    }
+    .last-container, .second-part{
+        grid-template-columns: 1fr;
     }
     
     }
