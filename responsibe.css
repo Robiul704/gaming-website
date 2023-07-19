@@ -20,21 +20,23 @@
     }
     .btn{
      flex-direction: row;
-     /* margin-left: 130px; */
      text-align: center;
-     /* width: 100px; */
     }
     .left-side,.right-side{
         width: 100%;
     }
     .last-container, .second-part{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3,1fr);
     }
     .footer-first-flex{
         grid-template-columns: repeat(3,1fr);
     }
     .footer-second-flex{
         grid-template-columns: repeat(2,1fr);
+    }
+    .play-instantly{
+        flex-direction: column;
+        padding: 30px;
     }
 
     }
